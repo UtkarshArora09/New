@@ -10,8 +10,8 @@ repo_path = os.path.abspath(os.path.join(script_dir, ".."))
 file_path = os.path.join(script_dir, "auto_backdate_file.py")
 
 # Hard-coded start and end dates
-start_date = datetime(2025, 6, 1)
-end_date = datetime(2026, 6, 23)
+start_date = datetime(2025, 5, 17)
+end_date = datetime(2025, 7, 23)
 commit_message = "auto-commit"
 
 # Range of random commits per day (between 1 and 30)
